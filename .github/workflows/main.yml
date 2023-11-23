@@ -115,7 +115,7 @@ jobs:
           sleep 10  # Give some time for the container to start (adjust this time if needed)
 
           docker exec ica2_container ls
-          docker exec ica2_container test_app.py
+          docker exec ica2_container python test_app.py
 
           # Stop and remove the container
           docker stop ica2_container
