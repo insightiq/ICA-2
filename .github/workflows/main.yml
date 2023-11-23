@@ -29,7 +29,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: test-report
-          path: test-report.txt  # Store the text report as an artifact
+          path: test-report.txt  # Store the text report as an artifact 
 
   Linux-self-hosted:
     runs-on: self-hosted
