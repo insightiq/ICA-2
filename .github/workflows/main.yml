@@ -16,7 +16,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        uses: insightiq/custom-actions-repo@v1 
+        uses: insightiq/custom-actions-repo@v1
         with:
           requirements-file: 'requirements.txt'
         #run: |
